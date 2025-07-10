@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+echo "call browser/1.sh" >> /tmp/hotkeys.log
