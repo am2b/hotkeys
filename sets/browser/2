@@ -1,3 +1,12 @@
 #!/usr/bin/env bash
 
-echo "call browser/2.sh" >> /tmp/hotkeys.log
+#拷贝邮件正文
+
+dir=$HOME/.local/bin/python-tools
+
+"${dir}"/mail-helper copy-lines
+
+#osascript -e "display notification \"拷贝邮件正文成功\" with title \"hotkeys\" sound name \"Glass\""
+
+#传递消息给hammerspoon
+echo "cmd v+enter"

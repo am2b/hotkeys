@@ -13,6 +13,7 @@ APP_GROUPS[邮件]="mail"
 APP_GROUPS[safari浏览器]="browser"
 APP_GROUPS[microsoft_edge]="browser"
 APP_GROUPS[google_chrome]="browser"
+APP_GROUPS[firefox]="browser"
 
 #检查当前应用是否需要分组
 if [[ -n "${APP_GROUPS[$SET_NAME]}" ]]; then
