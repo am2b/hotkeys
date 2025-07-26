@@ -7,13 +7,17 @@ BASE_DIR="${XDG_CONFIG_HOME:-$HOME/.config}/hotkeys"
 SET_NAME="${APP_NAME}"
 
 declare -A APP_GROUPS
+#邮件客户端
 APP_GROUPS[microsoft_outlook]="mail"
 APP_GROUPS[网易邮箱大师]="mail"
 APP_GROUPS[邮件]="mail"
+
+#邮件网页
 APP_GROUPS[safari浏览器]="browser"
 APP_GROUPS[microsoft_edge]="browser"
 APP_GROUPS[google_chrome]="browser"
 APP_GROUPS[firefox]="browser"
+APP_GROUPS[brave_browser]="browser"
 
 #检查当前应用是否需要分组
 if [[ -n "${APP_GROUPS[$SET_NAME]}" ]]; then
