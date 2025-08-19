@@ -11,6 +11,7 @@ declare -A APP_GROUPS
 APP_GROUPS[microsoft_outlook]="mail"
 APP_GROUPS[网易邮箱大师]="mail"
 APP_GROUPS[邮件]="mail"
+APP_GROUPS[spark]="mail"
 
 #邮件网页
 APP_GROUPS[safari浏览器]="browser"
