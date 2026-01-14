@@ -6,6 +6,8 @@ KEY="$2"
 BASE_DIR="${XDG_CONFIG_HOME:-$HOME/.config}/hotkeys"
 SET_NAME="${APP_NAME}"
 
+#新增邮件客户端,邮件网页(浏览器)的时候,仅需在这里添加即可,无需再更改别的什么配置文件
+#[尝试的时候,报错的通知中看到的名字即可]
 declare -A APP_GROUPS
 #邮件客户端
 APP_GROUPS[microsoft_outlook]="mail"
@@ -19,6 +21,7 @@ APP_GROUPS[microsoft_edge]="browser"
 APP_GROUPS[google_chrome]="browser"
 APP_GROUPS[firefox]="browser"
 APP_GROUPS[brave_browser]="browser"
+APP_GROUPS[vivaldi]="browser"
 
 #检查当前应用是否需要分组
 if [[ -n "${APP_GROUPS[$SET_NAME]}" ]]; then
