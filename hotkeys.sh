@@ -22,6 +22,7 @@ APP_GROUPS[google_chrome]="browser"
 APP_GROUPS[firefox]="browser"
 APP_GROUPS[brave_browser]="browser"
 APP_GROUPS[vivaldi]="browser"
+APP_GROUPS[helium]="browser"
 
 #检查当前应用是否需要分组
 if [[ -n "${APP_GROUPS[$SET_NAME]}" ]]; then
